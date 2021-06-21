@@ -1,53 +1,27 @@
-import Head from 'next/head'
-import { styled } from '../stitches.config'
-import StitchesLogo from '../components/StitchesLogo'
+import SEO from './../components/SEO/SEO'
+import Navigation from './../components/Navigation/Navigation'
+import Introduction from './../components/Introduction/Introduction'
+import About from './../components/About/About'
+import Footer from './../components/Footer/Footer'
 
-const Box = styled('div', {})
+import globalStyle from './../styles/global.style.js'
+import { lightTheme , Layout} from './../styles/theme.config.js'
 
-const Text = styled('p', {
-  fontFamily: '$system',
-  color: '$hiContrast',
-})
+const Home = () => {
 
-const Link = styled('a', {
-  fontFamily: '$system',
-  textDecoration: 'none',
-  color: '$purple600',
-})
+  globalStyle()
 
-const Container = styled('div', {
-  marginX: 'auto',
-  paddingX: '$3',
-
-  variants: {
-    size: {
-      '1': {
-        maxWidth: '300px',
-      },
-      '2': {
-        maxWidth: '585px',
-      },
-      '3': {
-        maxWidth: '865px',
-      },
-    },
-  },
-})
-
-export default function Home() {
-  return (
-    <Box css={{ paddingY: '$6' }}>
-      <Head>
-        <title>Use Stitches with Next.js</title>
-      </Head>
-      <Container size={{ '@initial': '1', '@bp1': '2' }}>
-        <StitchesLogo />
-        <Text as="h1">Hello, from Stitches.</Text>
-        <Text>
-          For full documentation, visit{' '}
-          <Link href="https://stitches.dev">stitches.dev</Link>.
-        </Text>
-      </Container>
-    </Box>
+  return(
+    <>
+      <Layout>
+        <SEO title = "Home"/>
+        <Navigation/>
+        <Introduction/>
+        <About/>
+        <Footer/>
+      </Layout >
+    </>
   )
 }
+
+export default Home

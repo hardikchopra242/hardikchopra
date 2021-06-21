@@ -37,12 +37,12 @@ export const { css, styled, global, getCssString } = createCss({
       6: '35px',
     },
     fontSizes: {
-      1: '12px',
-      2: '13px',
-      3: '15px',
-      4: '17px',
-      5: '19px',
-      6: '21px',
+      1: '14px',
+      2: '18px',
+      3: '20px',
+      4: '24px',
+      5: '36px',
+      6: '48px',
     },
     fonts: {
       system: 'system-ui',

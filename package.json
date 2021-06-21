@@ -7,10 +7,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "@stitches/react": "latest",
+    "@stitches/react": "0.1.9",
+    "animate.css": "^4.1.1",
     "next": "latest",
+    "next-images": "^1.8.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
+    "react-parallax-mousemove": "^1.1.0"
   },
   "license": "MIT"
 }
