@@ -7,6 +7,7 @@ export const Container = styled('div', {
   alignItems     : 'center',
   zindex : -1,
   margin         : '100px 100px',
+
   '@media only screen and (max-width: 1024px)' : {
     margin       : '100px 0',
   },
@@ -18,6 +19,9 @@ export const Content = styled('div', {
   maxWidth      : '100vw',
   width         : 600,
   marginRight   : '200',
+  '@media only screen and (max-width : 1024px)' : {
+    margin : '0 30px',
+  }
 })
 
 export const Header = styled('h1', {

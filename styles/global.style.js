@@ -63,6 +63,12 @@ const globalStyle = global({
     display : 'none !important',
   },
 
+  '.hideSmall' : {
+    '@media only screen and (max-width : 600px)' : {
+      display : 'none',
+    }
+  }
+
 })
 
 export default globalStyle

@@ -37,24 +37,19 @@ const About = () => {
           this is the about section of the website where i will tell you about myself
           this is the about section of the
         </S.Para>
-        
       </S.Content>
-
-
-<div >
-      <ParallaxMousemove.Layer layerStyle={style.bgLayerStyle} config={{
-        xFactor: 0.05,
-        yFactor: 0.25,
-        springSettings: {
-        stiffness: 50,
-        damping: 70
-        }
-      }}>
-         <img src={favicon} alt="Parallax Layer" style = {{width : 400}}></img>
-      </ParallaxMousemove.Layer>
-</div>
-
-
+      <div className = {"hideSmall"}>
+            <ParallaxMousemove.Layer layerStyle={style.bgLayerStyle} config={{
+              xFactor: 0.05,
+              yFactor: 0.25,
+              springSettings: {
+              stiffness: 50,
+              damping: 70
+              }
+            }}>
+               <img src={favicon} alt="Parallax Layer" style = {{width : 400}}></img>
+            </ParallaxMousemove.Layer>
+      </div>
     </S.Container>
   )
 }

@@ -15,6 +15,9 @@ export const Content = styled('div', {
   display        : 'flex',
   justifyContent : 'center',
   flexDirection  : 'column',
+  '@media only screen and (max-width : 600px)' : {
+    margin : '0 50px',    
+  }
 })
 
 export const TextSmall = styled('p', {
