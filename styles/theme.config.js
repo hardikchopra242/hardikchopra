@@ -4,15 +4,15 @@ export const { styled, css, global, getCssString, theme } = createCss({
     theme: {
       colors: {
         black          : '#030303',
-        white          : '#efefef',
+          white          : '#efefef',
         primary        : '#0c0e10',
         secondary      : '#34393E',
-        font           : '#5A606B',
+        font           : '#777f8d',
         main           : '#ba85fa',
       },
       fonts: {
         primary  : 'Raleway, sans-serif',
-        secondary: 'Roboto,sans-serif',
+        secondary: 'Poppins,sans-serif',
         code     : 'Fira Code, monospace',
       },
       fontSizes: {

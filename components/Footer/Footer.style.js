@@ -1,9 +1,10 @@
 import {styled} from './../../styles/theme.config.js'
 
 export const Container = styled('div',{
-  display : 'flex',
-  justifyContent : 'space-between',
-  alignItems : 'center',
+  display         : 'flex',
+  justifyContent  : 'space-between',
+  alignItems      : 'center',
+  margin          : '0 30px',
   '@media only screen and (max-width : 800px)' : {
     flexDirection : 'column',
   }
@@ -15,7 +16,7 @@ export const Content = styled('div',{
   alignItems : 'center',
   margin : '25px',
   '@media only screen and (max-width : 800px)' : {
-    margin : '10px 20px',
+    margin : '5px 20px',
   }
 })
 
@@ -35,7 +36,7 @@ export const Text = styled('p', {
     margin : '0 20px 0 0',
   },
   '@media only screen and (max-width : 450px)' : {
-    
+    fontSize : '$2',
     margin : '0 10px 0 0',
   }
 })

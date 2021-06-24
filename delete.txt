@@ -1,0 +1,18 @@
+parallax for the about section
+------------------------------
+
+<div className = {"hideSmall"} >
+{/*            <ParallaxMousemove.Layer layerStyle={style.bgLayerStyle} config={{
+        xFactor: 0.25,
+        yFactor: 0.25,
+        springSettings: {
+        stiffness: 50,
+        damping: 70
+        }
+      }}>
+*/}
+        <S.ImageContainer>
+         <img src={balloon} alt="Parallax Layer"></img>
+        </S.ImageContainer>
+{/*            </ParallaxMousemove.Layer> */}
+</div>

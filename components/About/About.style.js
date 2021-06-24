@@ -1,26 +1,24 @@
 import { styled } from './../../styles/theme.config.js'
 
 export const Container = styled('div', {
-
   display        : 'flex',
   justifyContent : 'center',
   alignItems     : 'center',
-  zindex : -1,
+  zindex         : -1,
   margin         : '100px 100px',
 
-  '@media only screen and (max-width: 1024px)' : {
-    margin       : '100px 0',
-  },
 })
 
 export const Content = styled('div', {
-  display       : 'flex',
-  flexDirection : 'column',
-  maxWidth      : '100vw',
-  width         : 600,
-  marginRight   : '200',
-  '@media only screen and (max-width : 1024px)' : {
-    margin : '0 30px',
+  display          : 'flex',
+  flexDirection    : 'column',
+  maxWidth         : '100vw',
+  width            : 600,
+
+
+  '@media only screen and (max-width : 600px)' : {
+    justifyContent : 'center',
+    alignItems     : 'center',
   }
 })
 
@@ -39,7 +37,18 @@ export const Para = styled('p', {
 })
 
 export const ImageContainer = styled('div',{
-  display : 'flex',
-  width   : 300,
+    display        : 'flex',
+    justifyContent : 'center',
+    alignItems     : 'center',
+    margin : '150px 0',
+    img : {
+      width : '60%',
+    },
+    '@media only screen and (max-width : 1000px)' : {
+      img : {
+        width     : '300px',
+        transform : 'translateX(15vw)',
 
+      }
+    }
 })

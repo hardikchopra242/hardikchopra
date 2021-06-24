@@ -27,6 +27,11 @@ const globalStyle = global({
     userSelect : 'none',
   },
 
+'input:-webkit-autofill ,   input:-webkit-autofill:hover , input:-webkit-autofill:focus, input:-webkit-autofill:active' : {
+ '-webkit-box-shadow': '0 0 0 30px #34393E inset !important',
+ '-webkit-text-fill-color' : '#efefef',
+},
+
   'body::-webkit-scrollbar' : {
     width : 12,
   },
@@ -66,8 +71,14 @@ const globalStyle = global({
   '.hideSmall' : {
     '@media only screen and (max-width : 600px)' : {
       display : 'none',
-    }
-  }
+    },
+  },
+
+  '.hideMedium' : {
+    '@media only screen and (max-width : 900px)' : {
+      display : 'none !important',
+    },
+  },
 
 })
 

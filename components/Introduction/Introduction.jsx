@@ -26,7 +26,7 @@ const Introduction = () => {
           <S.ButtonLink href = "#about">
             <S.Button>
               More About me
-              <Icons.ChevronDown style = {{width : '20px', margin: '0 0 0 7px'}}/>
+              {/*<Icons.ChevronDown style = {{width : '20px', margin: '0 0 0 7px'}}/>*/}
             </S.Button>
           </S.ButtonLink>
             <S.ButtonLink href="https://drive.google.com/file/d/15wrxyonWLzS_cmAY3GOq_q7CnDpLrxjz/view?usp=sharing" target =' _blank'>

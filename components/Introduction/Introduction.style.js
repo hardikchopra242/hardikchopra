@@ -1,14 +1,13 @@
 import { styled } from './../../styles/theme.config.js'
 
 export const Container = styled('div', {
-
   display        : 'flex',
   justifyContent : 'center',
   alignItems     : 'center',
   flexDirection  : 'column',
   height         : '100vh',
   width          : '110vw',
-  zindex : -1,
+  zindex         : -1,
 })
 
 export const Content = styled('div', {
@@ -16,7 +15,7 @@ export const Content = styled('div', {
   justifyContent : 'center',
   flexDirection  : 'column',
   '@media only screen and (max-width : 600px)' : {
-    margin : '0 50px',    
+    margin       : '0 50px',
   }
 })
 
@@ -47,36 +46,33 @@ export const Icon = styled('a', {
 
 export const ButtonContainer = styled('div', {
   display : 'flex',
-
 })
 
 export const ButtonLink = styled('a', {
-  margin : '0 20px 0 0',
-  outline : 'none',
-  display : 'flex',
+  margin         : '0 20px 0 0',
+  outline        : 'none',
+  display        : 'flex',
   textDecoration : 'none',
 })
 
 export const Button = styled('button', {
-  background : 'none',
-  display : 'flex',
+  background     : 'none',
+  display        : 'flex',
   justifyContent : 'center',
-  alignItems : 'center',
-  border : 'none',
-  color : '$white',
-  fontFamily : '$code',
-  fontSize : '$1',
-  width : 'fit-content',
-  padding : 10,
-  borderRadius : 3,
-  border : '2px solid $secondary',
-
+  alignItems     : 'center',
+  border         : 'none',
+  color          : '$white',
+  fontFamily     : '$code',
+  fontSize       : '$1',
+  width          : 'fit-content',
+  padding        : 10,
+  borderRadius   : 3,
+  border         : '2px solid $secondary',
   '@media only screen and (min-width : 600px)' : {
-    '&:hover' : {
+    '&:hover'    : {
       background : '$white',
-      color : '$black',
-      border : '2px solid $white',
+      color      : '$black',
+      border     : '2px solid $white',
     }
   }
-
 })
