@@ -1,14 +1,8 @@
-import {useState, useEffect} from 'react'
-
 import * as S from './Footer.style.js'
 import * as Icons from 'react-feather'
 
 const Footer = () => {
-  const [year, setYear] = useState(null)
-  useEffect(()=>{
-    const date = new Date();
-    setYear(date.getFullYear())
-  }, [])
+
   return(
     <S.Container>
       <S.Content>
@@ -22,7 +16,7 @@ const Footer = () => {
 
       <S.Content>
         <S.Text>
-          © {year} Hardik Chopra
+          © 2021 &nbsp; Hardik Chopra
           </S.Text>
           <S.Link  href="https://github.com/hardikchopra242" target="_blank">
             <Icons.GitHub />

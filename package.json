@@ -9,6 +9,7 @@
   "dependencies": {
     "@stitches/react": "0.1.9",
     "animate.css": "^4.1.1",
+    "copy-lite": "^0.1.2",
     "next": "latest",
     "next-images": "^1.8.1",
     "react": "^17.0.1",

@@ -6,14 +6,16 @@ export const Container = styled('div', {
   alignItems     : 'center',
   zindex         : -1,
   margin         : '100px 100px',
+  '@media only screen and (max-width : 600px)' : {
+    margin : '30px 30px',
+  }
 
 })
 
 export const Content = styled('div', {
   display          : 'flex',
   flexDirection    : 'column',
-  maxWidth         : '100vw',
-  width            : 600,
+  maxWidth         : '100vw'  ,
 
 
   '@media only screen and (max-width : 600px)' : {
@@ -38,17 +40,32 @@ export const Para = styled('p', {
 
 export const ImageContainer = styled('div',{
     display        : 'flex',
-    justifyContent : 'center',
+    justifyContent : 'flex-end',
     alignItems     : 'center',
-    margin : '150px 0',
     img : {
-      width : '60%',
+      width : '80%',
     },
     '@media only screen and (max-width : 1000px)' : {
       img : {
-        width     : '300px',
-        transform : 'translateX(15vw)',
 
       }
     }
+})
+
+export const Link = styled('a',{
+  color : '$font',
+  textDecoration : 'none',
+  color : '$main',
+  '@media only screen and (min-width : 800px)' : {
+    flexDirection : 'column',
+
+    '&:hover' : {
+      textDecoration : 'underline',
+    }
+  },
+
+  '@media only screen and (max-width : 450px)' : {
+    margin : '0 3px',
+  }
+
 })

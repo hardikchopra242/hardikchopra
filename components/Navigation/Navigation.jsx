@@ -13,10 +13,7 @@ const Elements = [
     link: '/#about',
     title:'About',
   },
-  {
-    link: '/#skills',
-    title:'Skills',
-  },
+
   {
     link: '/#projects',
     title:'Projects',
@@ -24,10 +21,6 @@ const Elements = [
   {
     link: '/#contact',
     title:'Contact',
-  },
-  {
-    link: '/blog',
-    title:'Blog',
   },
 ]
 

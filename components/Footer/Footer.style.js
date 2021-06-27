@@ -36,7 +36,7 @@ export const Text = styled('p', {
     margin : '0 20px 0 0',
   },
   '@media only screen and (max-width : 450px)' : {
-    fontSize : '$2',
+    fontSize : '$1',
     margin : '0 10px 0 0',
   }
 })
@@ -56,7 +56,7 @@ export const Link = styled('a',{
   },
 
   '@media only screen and (max-width : 450px)' : {
-    margin : '0 5px',
+    margin : '0 3px',
   }
 
 })

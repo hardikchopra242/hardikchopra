@@ -1,6 +1,7 @@
 import * as S from './Contact.style.js'
 import * as Icons from 'react-feather'
 import img from './../../public/mail.svg'
+import { copyToClipboard } from "copy-lite"
 
 const Contact = () => {
   return(
@@ -15,7 +16,9 @@ const Contact = () => {
             <S.Para>Or Mail Me</S.Para>
             <S.Email>
               hardikchopra242@gmail.com
-              <S.CopyButton>
+              <S.CopyButton
+              onClick={() => copyToClipboard("hardikchopra242@gmail.com")}
+              >
                 <Icons.Clipboard />
               </S.CopyButton>
             </S.Email>

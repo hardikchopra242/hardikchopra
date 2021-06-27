@@ -66,7 +66,10 @@ export const CopyButton = styled('button', {
   margin : '0px 15px',
   '&:hover' : {
     color : '$white',
-  }
+  },
+  '&:active' : {
+    transform : 'scale(0.9)'
+  },
 })
 
 export const SVGContainer = styled('div', {
@@ -79,10 +82,11 @@ export const FormContainer = styled('form', {
   justifyContent : 'center',
   alignItems     : 'center',
   flexDirection  : 'column',
-  border         : '2px solid $secondary',
   margin         : '0  50px',
   padding        : '20px 50px',
   borderRadius   : 10,
+  background     : '#151719',
+  boxShadow : 'rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px',
   '@media only screen and (max-width : 600px)' : {
     margin       : '0  50px',
     padding      : '20px 20px',
@@ -147,6 +151,8 @@ export const Button = styled('button', {
   margin         : '15px 0',
   borderRadius   : 3,
   border         : '2px solid $secondary',
+  fontWeight     : 'bold',
+
   '@media only screen and (min-width : 600px)' : {
     '&:hover'    : {
       background : '$white',
