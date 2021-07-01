@@ -1,7 +1,9 @@
+import { useState } from 'react'
+
 import * as Icons from 'react-feather'
 import * as S from './Navigation.style.js'
 
-import { useState } from 'react'
+import Animation from 'react-animate-on-scroll'
 
 
 const Elements = [
@@ -22,6 +24,10 @@ const Elements = [
     link: '/#contact',
     title:'Contact',
   },
+  {
+    link: '/',
+    title:'Temp',
+  },
 ]
 
 const Navigation = () => {
@@ -34,6 +40,7 @@ const Navigation = () => {
   return (
     <>
       {/*Navigation Bar */}
+
       <S.Nav>
         <S.Container>
           <h1>HC</h1>
@@ -51,6 +58,7 @@ const Navigation = () => {
           </S.LinkContainer>
         </S.Container>
       </S.Nav>
+
 
       {/*Menu Box for small size screens*/}
       <S.MenuContainer className = {menu ? '' : 'clear'} >

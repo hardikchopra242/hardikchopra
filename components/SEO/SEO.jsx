@@ -8,7 +8,7 @@ const SEO = ({title}) => {
   return(
     <>
     <Head>
-    <title>{ title }</title>
+    <title>Hardik Chopra - { title }</title>
     <meta property="og:title" content={title} />
     <meta property="twitter:title" content={title} />
     <meta name="description" content={description} />
@@ -24,7 +24,7 @@ const SEO = ({title}) => {
     <link rel="icon" href = {favicon} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins&family=Raleway:wght@800&display=swap" rel="stylesheet" />      
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins&family=Raleway:wght@800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="animate.min.css" />
     </Head>
     </>

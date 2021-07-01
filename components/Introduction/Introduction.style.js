@@ -68,7 +68,8 @@ export const Button = styled('button', {
   padding        : 10,
   borderRadius   : 3,
   border         : '2px solid $secondary',
-  fontWeight     : 'bold',  
+  fontWeight     : 'bold',
+  transition : '0.4s',
   '@media only screen and (min-width : 600px)' : {
     '&:hover'    : {
       background : '$white',

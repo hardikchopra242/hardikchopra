@@ -5,13 +5,12 @@ export const Nav = styled('nav', {
   display        : 'flex',
   alignItems     : 'center',
   justifyContent : 'center',
-  zindex         : 999,
+  zIndex         : 1000,
   top            : 0,
   left           : 0,
-  right          : 0,
   background     : '$primary',
   height         : 100,
-  width          : '100vw',
+  width          : '100%',
 })
 
 export const Container = styled('div', {
@@ -58,7 +57,7 @@ export const ThemeButton = styled('button', {
 
 export const MenuContainer = styled('div',{
   position       : 'fixed',
-  zindex         : 999999,
+  zIndex         : 999999,
   height         : '100vh',
   width          : '100vw',
   display        : 'flex',
@@ -73,7 +72,7 @@ export const Menu = styled('div', {
   flexDirection  : 'column',
   height         : '300',
   width          : '300',
-  zindex         : 9999999,
+  zIndex         : 9999999,
   background     : '$primary',
   padding        : '10px 0',
   borderRadius   : '5px',

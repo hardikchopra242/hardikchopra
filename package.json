@@ -13,6 +13,7 @@
     "next": "latest",
     "next-images": "^1.8.1",
     "react": "^17.0.1",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",
     "react-feather": "^2.0.9",
     "react-parallax-mousemove": "^1.1.0"
