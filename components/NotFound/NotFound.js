@@ -8,7 +8,7 @@ const NotFound = () =>{
         <S.Header>Not Found</S.Header>
       </S.Content>
       <S.Para>
-        We are unable to find this page 😕<br />
+        We were unable to find this page 😕<br />
         Go to <S.Link href="/">Home Page </S.Link>
       </S.Para>
     </S.Container>
