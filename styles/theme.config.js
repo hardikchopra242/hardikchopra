@@ -21,7 +21,8 @@ export const { styled, css, global, getCssString, theme, keyframes } = createCss
         3: '20px',
         4: '24px',
         5: '36px',
-        6: '54px',
+        6: '42px',
+        7: '54px'
       },
     }
 })

@@ -5,6 +5,7 @@ import SEO from './../components/SEO/SEO'
 import Navigation from './../components/Navigation/Navigation'
 import Introduction from './../components/Introduction/Introduction'
 import About from './../components/About/About'
+import Projects from './../components/Projects/Projects'
 import Contact from './../components/Contact/Contact'
 import Footer from './../components/Footer/Footer'
 
@@ -32,6 +33,7 @@ const Home = () => {
         <Navigation/>
         <Introduction/>
         <About/>
+        <Projects/>
         <Contact/>
         <Footer/>
       </Layout >

@@ -62,7 +62,7 @@ const globalStyle = global({
     color:'$main',
     fontFamily: '$primary',
     userSelect : 'none',
-    fontSize : '$5'
+    fontSize : '$6'
   },
 
   '.clear' : {
