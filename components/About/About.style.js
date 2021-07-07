@@ -5,18 +5,16 @@ export const Container = styled('div', {
   justifyContent : 'center',
   alignItems     : 'center',
   zindex         : -1,
-  margin         : '100px 100px',
+  margin         : '5em 5em',
   '@media only screen and (max-width : 600px)' : {
-    margin : '30px 30px',
+    margin : '2em 2em',
   }
-
 })
 
 export const Content = styled('div', {
   display          : 'flex',
   flexDirection    : 'column',
   maxWidth         : '100vw'  ,
-
 
   '@media only screen and (max-width : 600px)' : {
     justifyContent : 'center',
@@ -27,8 +25,7 @@ export const Content = styled('div', {
 export const Header = styled('h1', {
   display  : 'flex',
   width    : 'fit-content',
-  fontSize : '$5',
-  margin   : '25px 0'
+  margin   : '1em 0'
 })
 
 export const Para = styled('p', {
