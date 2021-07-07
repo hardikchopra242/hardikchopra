@@ -43,7 +43,7 @@ const Navigation = () => {
 
       <S.Nav>
         <S.Container>
-          <h1>HC</h1>
+          <S.Icon>HC</S.Icon>
           <S.MenuButton  onClick = {ToggleMenu}>
             <Icons.Menu color='#5A606B'/>
           </S.MenuButton>

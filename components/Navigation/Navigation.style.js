@@ -24,6 +24,10 @@ export const Container = styled('div', {
   },
 })
 
+export const Icon = styled('h1' , {
+  fontSize : '$5',
+})
+
 export const LinkContainer = styled('div', {
   display   : 'flex',
   '@media only screen and (max-width : 600px)' :{
