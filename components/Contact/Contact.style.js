@@ -3,26 +3,24 @@ import { styled } from './../../styles/theme.config.js'
 export const Container = styled('div', {
   display          : 'flex',
   flexDirection    : 'column',
-  margin           : '100px 100px',
-  '@media only screen and (max-width: 1024px)' : {
-    margin         : '100px 30px',
-  },
+  margin           : '5em 5em',
+
   '@media only screen and (max-width : 600px)' : {
     justifyContent : 'center',
     alignItems     : 'center',
+    margin : '2em 2em',
   }
 })
 
 export const Header = styled('h1', {
   display  : 'flex',
   width    : 'fit-content',
-  fontSize : '$5',
   margin   : '25px 0'
 })
 
 export const Content = styled('div', {
     display        : 'flex',
-    justifyContent : 'space-between',
+    justifyContent : 'center',
     alignItems     : 'center',
     marginTop : '50px',
     '@media only screen and (max-width : 900px)' : {
@@ -152,6 +150,7 @@ export const Button = styled('button', {
   borderRadius   : 3,
   border         : '2px solid $secondary',
   fontWeight     : 'bold',
+  transition     : '0.4s',
 
   '@media only screen and (min-width : 600px)' : {
     '&:hover'    : {

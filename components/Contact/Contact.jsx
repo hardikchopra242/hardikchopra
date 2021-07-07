@@ -37,7 +37,7 @@ const Contact = () => {
 
         <S.FormContainer
           action="https://formspree.io/f/mknkbdar"
-          autocomplete = "off"
+          autoComplete = "off"
           method="POST"
         >
           <S.Para> Send me a message 😃 </S.Para>
