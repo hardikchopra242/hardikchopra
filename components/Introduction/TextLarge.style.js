@@ -4,7 +4,7 @@ import { styled } from './../../styles/theme.config.js'
 export const TextLarge = styled('h1', {
   width    : 'fit-content',
   color    : '$white',
-  fontSize : '$6',
+  fontSize : '$7',
   margin   : '30px 0',
   zindex  : -1,
 
