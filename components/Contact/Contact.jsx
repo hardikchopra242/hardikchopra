@@ -20,8 +20,11 @@ const Contact = () => {
             <img src = {img} width = {250}/>
           </S.SVGContainer>
           <S.EmailContainer>
-            <S.Para>Or Mail Me</S.Para>
-            <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+            <S.Para>
+                <span className='hideMedium'>Or </span>
+                Mail Me
+            </S.Para>
+            <Animation animateIn="animate__flipInX" animateOnce={true}>
               <S.Email>
                 hardikchopra242@gmail.com
                 <S.CopyButton
@@ -33,8 +36,7 @@ const Contact = () => {
             </Animation>
           </S.EmailContainer>
         </S.Left>
-        <Animation animateIn="animate__zoomIn" animateOnce={true}>
-
+        <Animation animateIn="animate__fadeInUp" animateOnce={true}>
         <S.FormContainer
           action="https://formspree.io/f/mknkbdar"
           autoComplete = "off"

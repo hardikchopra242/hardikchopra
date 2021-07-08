@@ -15,14 +15,14 @@ export const Container = styled('div', {
 export const Header = styled('h1', {
   display  : 'flex',
   width    : 'fit-content',
-  margin   : '25px 0'
+  margin   : '1em 0'
 })
 
 export const Content = styled('div', {
     display        : 'flex',
-    justifyContent : 'center',
+    justifyContent : 'space-between',
     alignItems     : 'center',
-    marginTop : '50px',
+    marginTop      : '4em',
     '@media only screen and (max-width : 900px)' : {
       flexDirection : 'column',
     }
@@ -80,10 +80,10 @@ export const FormContainer = styled('form', {
   justifyContent : 'center',
   alignItems     : 'center',
   flexDirection  : 'column',
-  margin         : '0  50px',
-  padding        : '20px 50px',
+  padding        : '2em 3em',
+  marginRight : '5em',
   borderRadius   : 10,
-  background     : '#151719',
+  background     : '$primary_light',
   boxShadow : 'rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px',
   '@media only screen and (max-width : 600px)' : {
     margin       : '0  50px',
