@@ -6,6 +6,7 @@ export const { styled, css, global, getCssString, theme, keyframes } = createCss
         black          : '#030303',
         white          : '#efefef',
         primary        : '#0c0e10',
+        primary_light : '#151719',
         secondary      : '#34393E',
         font           : '#777f8d',
         main           : '#ba85fa',

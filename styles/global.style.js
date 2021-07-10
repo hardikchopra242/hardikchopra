@@ -81,6 +81,11 @@ const globalStyle = global({
     },
   },
 
+  i : {
+    fontSize : '3em',
+    color : '$white',
+  }
+
 })
 
 export default globalStyle
