@@ -25,6 +25,7 @@ export const Content = styled('div', {
     marginTop      : '4em',
     '@media only screen and (max-width : 900px)' : {
       flexDirection : 'column',
+      marginTop : 0,
     }
 })
 
@@ -53,7 +54,7 @@ export const Email = styled('div', {
   background : '$secondary',
   padding : '15px 0 15px 15px',
   borderRadius : 5,
-
+  boxShadow: 'rgb(0 0 0 / 5%) 0px 5px 10px',
 })
 
 export const CopyButton = styled('button', {
@@ -84,9 +85,9 @@ export const FormContainer = styled('form', {
   marginRight : '5em',
   borderRadius   : 10,
   background     : '$primary_light',
-  boxShadow : 'rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px',
+  boxShadow: 'rgb(0 0 0 / 5%) 0px 5px 10px',
   '@media only screen and (max-width : 600px)' : {
-    margin       : '0  50px',
+    margin       : '2em 2em',
     padding      : '20px 20px',
   }
 })
