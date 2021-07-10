@@ -26,6 +26,7 @@ const SEO = ({title}) => {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins&family=Raleway:wght@800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />
     </Head>
     </>
   )
