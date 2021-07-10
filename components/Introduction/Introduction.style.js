@@ -15,7 +15,7 @@ export const Content = styled('div', {
   justifyContent : 'center',
   flexDirection  : 'column',
   '@media only screen and (max-width : 600px)' : {
-    margin       : '0 50px',
+    margin       : '0 4em',
   }
 })
 

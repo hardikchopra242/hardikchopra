@@ -9,16 +9,16 @@ const Introduction = () => {
   return(
     <S.Container id = "home">
       <S.Content>
-        <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1200}>
           <S.TextSmall>Hey ! &nbsp;I 'am </S.TextSmall>
         </Animation>
-        <Animation animateIn="animate__bounceInRight" animateOnce={true} delay={500}>
+        <Animation animateIn="animate__bounceInRight" animateOnce={true} delay={1400}>
           <T.TextLarge data-letters="Hardik Chopra" > Hardik Chopra </T.TextLarge>
         </Animation>
-        <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1600}>
           <S.TextSmall> A Programmer and a Web Developer </S.TextSmall>
         </Animation>
-        <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1800}>
           <S.IconContainer>
             <S.Icon href = "https://github.com/hardikchopra242" target = '_blank'>
               <Icons.GitHub />
@@ -33,17 +33,22 @@ const Introduction = () => {
         </Animation>
           <S.ButtonContainer>
           <S.ButtonLink href = "#about">
-            <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+            <Animation animateIn="animate__flipInX" animateOnce={true} delay={2000}>
               <S.Button>
                 More About me
               </S.Button>
             </Animation>
           </S.ButtonLink>
             <S.ButtonLink href="https://drive.google.com/file/d/15wrxyonWLzS_cmAY3GOq_q7CnDpLrxjz/view?usp=sharing" target =' _blank'>
-              <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+              <Animation
+                animateIn="animate__flipInX"
+                animateOnce={true}
+                delay={2000}>
                 <S.Button>
                   Resume
-                  <Icons.FileText style = {{width : '20px', margin: '0 0 0 7px'}}/>
+                  <Icons.FileText
+                    style = {{width : '20px', margin: '0 0 0 7px'}}
+                  />
                 </S.Button>
               </Animation>
             </S.ButtonLink>
