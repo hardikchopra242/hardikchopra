@@ -3,9 +3,9 @@ import * as Icon from 'react-feather'
 
 import Animation from 'react-animate-on-scroll'
 
-import Detectsy from './../../public/projects/Detectsy.png'
-import RGBeX from './../../public/projects/RGBeX.png'
-import Virtuo from './../../public/projects/Virtuo.png'
+import Detectsy from './../../public/Detectsy.png'
+import RGBeX from './../../public/RGBeX.png'
+import Virtuo from './../../public/Virtuo.png'
 
 const Projects = () => {
 
