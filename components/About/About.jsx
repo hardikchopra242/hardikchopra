@@ -10,8 +10,6 @@ const About = () => {
     bgLayerStyle: {
       position: 'relative',
       right : 0,
-      zindex :99,
-      transform: 'translate(35%, 0)',
     }
   }
 
@@ -23,13 +21,13 @@ const About = () => {
       </Animation>
       <S.InnerContainer>
       <S.Left>
-         <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+         <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={200}>
           <S.Para>
             <span role='img' aria-label='sayHello'> 👋 </span>{' '}
             Hey, I am a Full Stack Web Developer and Programmer from Punjab, India.
           </S.Para>
          </Animation>
-         <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+         <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={200}>
           <S.Para>
             I am an undegraduate
             <span role='img' aria-label='alma-matter'> 👨‍🎓 </span>{' '}
@@ -41,18 +39,33 @@ const About = () => {
             I have a great interest in learning new technologies and implementing them in real life.
           </S.Para>
          </Animation>
-         <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
+         <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={200}>
           <S.Para>
             Apart from development I like to program microcontrollers
             <span role='img' aria-label='robo'> 🤖 </span>{' '}
-            and also do competitive programming
+            and take part in competitive programming contests.
             <span role='img' aria-label='idea'> 💡 </span>{' '}
           </S.Para>
         </Animation>
       </S.Left>
-      <S.ImageContainer className = {"hideMedium"}>
-       <img src={balloon} alt="Parallax Layer"></img>
-      </S.ImageContainer>
+      <ParallaxMousemove.Layer
+        layerStyle={style.bgLayerStyle}
+        config = {{
+          xFactor: 0.05,
+          yFactor: 0.05,
+          springSettings: {
+          stiffness: 50,
+          damping: 70
+          }
+      }}>
+        <S.ImageContainer
+          className = 'hideMedium'>
+          <img
+            src={balloon}
+            alt="Parallax Layer"
+          />
+        </S.ImageContainer>
+      </ParallaxMousemove.Layer>
       </S.InnerContainer>
       </S.Content>
     </S.Container>

@@ -6,6 +6,7 @@ export const Container = styled('div', {
   zindex         : -1,
   padding : '7em 3em',
   background : '$primary_light',
+  boxShadow: 'rgb(0 0 0 / 5%) 0px 5px 10px',
   '@media only screen and (max-width : 600px)' : {
     justifyContent : 'center',
     alignItems     : 'center',
@@ -45,6 +46,8 @@ export const Para = styled('p', {
   fontSize   : '$2',
   fontFamily : '$secondary',
   margin     : '1em 0',
+  zIndex     : -1,
+  padding    : '0 1em',
 })
 
 export const ImageContainer = styled('div',{
