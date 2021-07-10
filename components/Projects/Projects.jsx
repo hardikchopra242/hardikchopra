@@ -1,6 +1,8 @@
 import * as S from './Projects.style.js'
 import * as Icon from 'react-feather'
 
+import Animation from 'react-animate-on-scroll'
+
 import Detectsy from './../../public/projects/Detectsy.png'
 import RGBeX from './../../public/projects/RGBeX.png'
 import Virtuo from './../../public/projects/Virtuo.png'
@@ -36,42 +38,48 @@ const Projects = () => {
   return(
     <S.Container id="projects">
       <S.Content>
-        <S.Header> Project </S.Header>
+        <Animation animateIn="animate__bounceInRight" animateOnce={true}>
+          <S.Header>
+            Projects
+          </S.Header>
+        </Animation>
         {ProjectMap.map((project,index) => (
-          <S.ProjectContainer key={index}>
-            <S.ProjectInfo>
-              <S.ProjectHeader> {project.title} </S.ProjectHeader>
-              <S.Description> {project.description} </S.Description>
-              <S.Skillset>
-                {project.skills.map(x => (
-                  <S.SkillBox>
-                    {x}
-                  </S.SkillBox>
-                ))}
-              </S.Skillset>
-              <S.ButtonContainer>
-                <S.Button
-                  href = {project.link}
-                  target = '_blank'
-                >
-                  <Icon.Link />
-                </S.Button>
-                <S.Button
-                  href = {`https://github.com/hardikchopra242/${project.title}`}
-                  target = '_blank'
-                >
-                  <Icon.GitHub />
-                </S.Button>
-              </S.ButtonContainer>
-            </S.ProjectInfo>
-            <S.ProjectImage>
-              <S.Image
-                src = {project.image}
-                width = '600px'
-                className = 'hideMedium'
-              />
-            </S.ProjectImage>
-          </S.ProjectContainer>
+          <Animation animateIn="animate__fadeInUp" animateOnce={true}>
+            <S.ProjectContainer key={index}>
+              <S.ProjectInfo>
+                <S.ProjectHeader> {project.title} </S.ProjectHeader>
+                <S.Description> {project.description} </S.Description>
+                <S.Skillset>
+                  {project.skills.map(x => (
+                    <S.SkillBox>
+                      {x}
+                    </S.SkillBox>
+                  ))}
+                </S.Skillset>
+                <S.ButtonContainer>
+                  <S.Button
+                    href = {project.link}
+                    target = '_blank'
+                  >
+                    <Icon.Link />
+                  </S.Button>
+                  <S.Button
+                    href = {`https://github.com/hardikchopra242/${project.title}`}
+                    target = '_blank'
+                  >
+                    <Icon.GitHub />
+                  </S.Button>
+                </S.ButtonContainer>
+              </S.ProjectInfo>
+              <S.ProjectImage>
+                <S.Image
+                  src = {project.image}
+                  width = '100%'
+                  className = 'hideMedium'
+                />
+              </S.ProjectImage>
+            </S.ProjectContainer>
+          </Animation>
         ))}
       </S.Content>
     </S.Container>
