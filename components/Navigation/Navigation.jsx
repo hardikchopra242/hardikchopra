@@ -51,9 +51,9 @@ const Navigation = () => {
                   <S.Link key={key} href={value.link}>
                     {value.title}
                   </S.Link> ))}
-            <S.ThemeButton>
+            {/*}<S.ThemeButton>
               <Icons.Sun/>
-            </S.ThemeButton>
+            </S.ThemeButton>*/}
           </S.LinkContainer>
         </S.Container>
       </S.Nav>

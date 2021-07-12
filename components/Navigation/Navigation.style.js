@@ -9,7 +9,7 @@ export const Nav = styled('nav', {
   top            : 0,
   left           : 0,
   background     : '$primary',
-  height         : 100,
+  height         : '6em',
   width          : '100%',
 })
 
@@ -39,7 +39,7 @@ export const Link = styled('a', {
   color          : '$font',
   fontSize       : '$3',
   textDecoration : 'none',
-  margin         : '0 10px',
+  margin         : '0 0.5em',
   fontFamily     : '$secondary',
   '&:hover' : {
     color   : '$white',
@@ -52,7 +52,6 @@ export const ThemeButton = styled('button', {
   alignItems     : 'center',
   background     : 'none',
   border         : 'none',
-  margin         : '0 15px',
   color          : '$font',
   '&:hover' : {
     color   : '$white',
@@ -66,8 +65,8 @@ export const MenuContainer = styled('div',{
   width          : '100vw',
   display        : 'flex',
   justifyContent : 'center',
-  alignItems     : 'center',
-  background     : '#2A2F3490',
+  alignItems     : 'flex-start',
+  background     : '#2A2F3440',
 })
 
 export const Menu = styled('div', {
@@ -78,7 +77,8 @@ export const Menu = styled('div', {
   width          : '300',
   zIndex         : 9999999,
   background     : '$primary',
-  padding        : '10px 0',
+  padding        : '0.5em 0 1.5em 0',
+  marginTop      : '20vh',
   borderRadius   : '5px',
 })
 
@@ -86,7 +86,7 @@ export const MenuLink = styled('a', {
   color          : '$font',
   fontSize       : '$3',
   textDecoration : 'none',
-  margin         : '10px 30px',
+  margin         : '0.5em 1.5em',
   width          : '200px',
   textAlign      : 'center',
   fontFamily     : '$primary',
@@ -105,5 +105,5 @@ export const Cross = styled('button', {
   background : 'none',
   border     : 'none',
   textAlign  : 'right',
-  padding    : '0 10px',
+  padding    : '0 0.5em',
 })
