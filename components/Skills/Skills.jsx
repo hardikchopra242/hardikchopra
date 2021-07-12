@@ -52,14 +52,16 @@ const Skills = () => {
       <S.Content>
         <Animation animateIn="animate__fadeInUp" animateOnce={true}>
         <S.Para>
-          Let us have a look on my skillset
+          Let us have a look on my skillset 🚀
         </S.Para>
         </Animation>
         <S.CatContainer>
           {SkillMap.map((skill,index) => (
             <>
             <Animation animateIn="animate__flipInX" animateOnce={true} delay={200}>
-              <S.CatHeading>{skill.title}</S.CatHeading>
+              <S.CatHeading>
+                {skill.title}
+              </S.CatHeading>
               <S.IconContainer>
                 {skill.skills.map(x => (
                   <S.Icon>

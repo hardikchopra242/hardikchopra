@@ -35,9 +35,10 @@ const Introduction = () => {
           <S.ButtonLink href = "#about">
             <Animation animateIn="animate__flipInX" animateOnce={true} delay={2000}>
               <S.Button>
-                <span className='hideSmall'>More‎</span>
-                &nbsp;About me
+                <span className='hideSmall'>More‎&nbsp;</span>
+                About me
                 <Icons.ChevronsDown
+                  className = 'hideSmall'
                   style = {{width : '20px', margin: '0 0 0 10px'}}
                 />
               </S.Button>
@@ -51,6 +52,7 @@ const Introduction = () => {
                 <S.Button>
                   Resume
                   <Icons.FileText
+                    className = 'hideSmall'
                     style = {{width : '20px', margin: '0 0 0 10px'}}
                   />
                 </S.Button>

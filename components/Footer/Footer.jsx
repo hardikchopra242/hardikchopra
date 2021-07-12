@@ -7,7 +7,11 @@ const Footer = () => {
     <S.Container>
       <S.Content>
         <S.Text>
-          Made with  <Icons.Heart />   +    <Icons.Coffee /> +
+          Made with
+          <Icons.Heart style={{width:'1.5em'}} />
+          +
+          <Icons.Coffee style={{width:'1.5em'}} />
+          +
           <S.Link href="https://nextjs.org/" target="_blank">
             Next.js
           </S.Link>
@@ -18,15 +22,17 @@ const Footer = () => {
         <S.Text>
           © 2021 &nbsp; Hardik Chopra
           </S.Text>
+          <S.IconContainer>
           <S.Link  href="https://github.com/hardikchopra242" target="_blank">
-            <Icons.GitHub />
+          <Icons.GitHub style={{width:'1.5em'}} />
           </S.Link>
           <S.Link  href="https://www.linkedin.com/in/hardik-chopra-62b6771a8/" target="_blank">
-            <Icons.Linkedin />
+          <Icons.Linkedin style={{width:'1.5em'}} />
           </S.Link>
           <S.Link  href="mailto:hardikchopra242@gmail.com" target="_blank">
-            <Icons.Mail />
+          <Icons.Mail style={{width:'1.5em'}} />
           </S.Link>
+          </S.IconContainer>
       </S.Content>
     </S.Container>
   )

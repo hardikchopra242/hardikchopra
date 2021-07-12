@@ -10,6 +10,7 @@ export const Container = styled('div', {
   '@media only screen and (max-width : 600px)' : {
     justifyContent : 'center',
     alignItems     : 'center',
+    padding : '3em 1em',
   }
 })
 
@@ -57,10 +58,6 @@ export const ImageContainer = styled('div',{
     img : {
       width : '80%',
     },
-    '@media only screen and (max-width : 1000px)' : {
-      img : {
-      }
-    }
 })
 
 export const Link = styled('a',{
