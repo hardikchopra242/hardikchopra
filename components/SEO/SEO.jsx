@@ -1,6 +1,5 @@
 
 import Head from 'next/head'
-import favicon from './../../public/favicon.png'
 
 const SEO = ({title}) => {
   const description = "I am Hardik Chopra - a programmer and a developer from NIT Jalandhar."
@@ -21,7 +20,7 @@ const SEO = ({title}) => {
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="theme-color" content="#1b1b1b" />
 
-    <link rel="icon" href = {favicon} />
+    <link rel="icon" href = '/favicon.png' />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins&family=Raleway:wght@800&display=swap" rel="stylesheet" />
