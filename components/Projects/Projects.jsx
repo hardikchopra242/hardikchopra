@@ -3,16 +3,12 @@ import * as Icon from 'react-feather'
 
 import Animation from 'react-animate-on-scroll'
 
-import Detectsy from './../../public/Detectsy.png'
-import RGBeX from './../../public/RGBeX.png'
-import Virtuo from './../../public/Virtuo.png'
-
 const Projects = () => {
 
   const ProjectMap = [
     {
       title : 'Detectsy',
-      image : Detectsy,
+      image : '/Detectsy.png',
       description : 'A Fullstack Face Detection Webapp',
       skills : ['React', 'Node', 'Express', 'Postgres'],
       link : 'http://detectsy.vercel.app/',
@@ -20,7 +16,7 @@ const Projects = () => {
 
     {
       title : 'RGBeX',
-      image : RGBeX,
+      image : '/RGBeX.png',
       description : 'An online tool to convert Hex and RGB values interchangeably',
       skills : ['Javascript', 'SASS'],
       link : 'https://hardikchopra242.github.io/RGBeX/',
@@ -28,7 +24,7 @@ const Projects = () => {
 
     {
       title : 'Virtuo',
-      image : Virtuo,
+      image : '/Virtuo.png',
       description : 'Play piano and drums together virtually using Virtuo',
       skills : ['Javascript', 'CSS'],
       link : 'https://hardikchopra242.github.io/Virtuo/',
