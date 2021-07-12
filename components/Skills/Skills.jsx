@@ -12,9 +12,11 @@ import heroku from './../../public/skills/heroku.js'
 import html from './../../public/skills/html.js'
 import javascript from './../../public/skills/javascript.js'
 import linux from './../../public/skills/linux.js'
+import mysql from './../../public/skills/mysql.js'
 import next from './../../public/skills/next.js'
 import node from './../../public/skills/node.js'
 import postgres from './../../public/skills/postgres.js'
+import postman from './../../public/skills/postman.js'
 import python from './../../public/skills/python.js'
 import react from './../../public/skills/react.js'
 import sass from './../../public/skills/sass.js'
@@ -25,22 +27,22 @@ const Skills = () => {
   const SkillMap = [
     {
       title : 'Web Development',
-      skills : [javascript, react, next, node, express, html, css, sass]
+      skills : [react, next, node, express, sass, html, css]
     },
     {
       title : 'Programming Languages',
-      skills : [cpp, c, python],
+      skills : [javascript, cpp, c, python],
     },
 
     {
       title : 'Tools I use',
-      skills : [postgres, git, heroku, linux]
+      skills : [mysql, postgres, linux, git, heroku ]
     }
   ]
 
   return(
     <div style={{display:'flex'}}>
-    <S.Container className = 'hideMedium' style={{border : '2px solid red' , width:'40vw'}}> </S.Container>
+
     <S.Container id="skills">
       <Animation animateIn="animate__bounceInRight" animateOnce={true}>
         <S.Header>
