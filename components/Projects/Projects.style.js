@@ -121,8 +121,15 @@ export const ProjectImage = styled('div' , {
   zIndex : 999,
   width : '50vw',
   boxShadow: 'rgb(0 0 0 / 5%) 0px 5px 10px',
+  transition : '0.3s',
+  '@media only screen and (min-width:900px)': {
+    '&:hover' : {
+      transform : 'translateY(-1em)',
+    }
+  }
 })
 
 export const Image = styled('img' , {
   borderRadius : '10px',
+  userSelect : 'none',
 })

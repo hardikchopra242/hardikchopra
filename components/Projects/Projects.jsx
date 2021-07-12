@@ -72,6 +72,7 @@ const Projects = () => {
                   src = {project.image}
                   width = '100%'
                   className = 'hideMedium'
+                  draggable="false"
                 />
               </S.ProjectImage>
             </S.ProjectContainer>
