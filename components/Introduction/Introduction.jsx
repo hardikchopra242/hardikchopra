@@ -35,7 +35,8 @@ const Introduction = () => {
           <S.ButtonLink href = "#about">
             <Animation animateIn="animate__flipInX" animateOnce={true} delay={2000}>
               <S.Button>
-                More About me
+                <span className='hideSmall'>More‎</span>
+                &nbsp;About me
               </S.Button>
             </Animation>
           </S.ButtonLink>
