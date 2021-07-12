@@ -1,27 +1,128 @@
-# Stitches Example
+<p align="center">
+  <a href="http://hardikchopra.vercel.app/" target="_blank">
+    <h1 align="center">Hardik Chopra</h1>
+  </a>
+</p>
+<h3 align="center">Personal Portfolio powered by Next.js</h3>
+<p align="center">
+<img src="https://img.shields.io/github/followers/hardikchopra242?style=social" />
+<img src="https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fhardikchopra.vercel.app%2F" />
+<img src="https://img.shields.io/github/commit-activity/y/hardikchopra242/hardikchopra242.github.io">
+<img src="https://img.shields.io/github/languages/count/hardikchopra242/hardikchopra242.github.io">
+</p>
 
-This example shows how to use the [Stitches CSS-in-JS Library](https://github.com/modulz/stitches).
+# 💻 Building locally
 
-## Preview
+```shell
+# Clone the repo
+git clone https://github.com/hardikchopra242/hardikchopra242.github.io.git
+cd hardikchopra242.github.io
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+# Install dependencies
+npm install
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-stitches)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-stitches&project-name=with-stitches&repository-name=with-stitches)
-
-## How to use
-
-Execute [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-stitches with-stitches-app
-# or
-yarn create next-app --example with-stitches with-stitches-app
+# Start development server
+npm start
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# 🚀 Building for production
+
+```shell
+# Clone the repo
+git clone https://github.com/hardikchopra242/hardikchopra242.github.io.git
+cd hardikchopra242.github.io
+
+# Install dependencies
+npm install
+
+# Build
+npm build
+```
+
+# 📂 What's inside?
+
+Let's have a look at the file structure 
+```
+.
+├── components
+│   ├── About
+│   │   ├── About.jsx
+│   │   └── About.style.js
+│   ├── Contact
+│   │   ├── Contact.jsx
+│   │   └── Contact.style.js
+│   ├── Footer
+│   │   ├── Footer.jsx
+│   │   └── Footer.style.js
+│   ├── Introduction
+│   │   ├── Introduction.jsx
+│   │   ├── Introduction.style.js
+│   │   └── TextLarge.style.js
+│   ├── Loader
+│   │   ├── Loader.jsx
+│   │   └── Loader.style.js
+│   ├── Navigation
+│   │   ├── Navigation.jsx
+│   │   └── Navigation.style.js
+│   ├── NotFound
+│   │   ├── NotFound.jsx
+│   │   └── NotFound.style.js
+│   ├── Projects
+│   │   ├── Projects.jsx
+│   │   └── Projects.style.js
+│   ├── SEO
+│   │   └── SEO.jsx
+│   ├── Skills
+│   │   ├── Skills.jsx
+│   │   └── Skills.style.js
+│   └── Wrapper
+│       └── Wrapper.jsx
+|
+├── next.config.js
+├── package.json
+├── package-lock.json
+|
+├── pages
+│   ├── 404.jsx
+│   ├── _document.jsx
+│   └── index.jsx
+|
+├── public
+│   ├── Detectsy.png
+│   ├── favicon.png
+│   ├── float.svg
+│   ├── mail.svg
+│   ├── RGBeX.png
+│   ├── skills
+│   │   ├── arduino.js
+│   │   ├── c.js
+│   │   ├── cpp.js
+│   │   ├── css.js
+│   │   ├── express.js
+│   │   ├── git.js
+│   │   ├── heroku.js
+│   │   ├── html.js
+│   │   ├── javascript.js
+│   │   ├── linux.js
+│   │   ├── mysql.js
+│   │   ├── next.js
+│   │   ├── node.js
+│   │   ├── postgres.js
+│   │   ├── postman.js
+│   │   ├── python.js
+│   │   ├── react.js
+│   │   └── sass.js
+│   └── Virtuo.png
+|
+├── README.md
+├── stitches.config.js
+└── styles
+    ├── global.style.js
+    └── theme.config.js
+
+
+```
+# :key: Contribute
+* If you want to suggest some other feature, please open an [**issue**](https://github.com/hardikchopra242/RGBeX/issues) here.
+* If you noticed some typos or a need to fix syntax, don't hesitate to make a **pull request**.
+* You can find existing issues [here](https://github.com/hardikchopra242/RGBeX/issues), if you can fix them, go for it!
