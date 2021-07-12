@@ -37,6 +37,9 @@ const Introduction = () => {
               <S.Button>
                 <span className='hideSmall'>More‎</span>
                 &nbsp;About me
+                <Icons.ChevronsDown
+                  style = {{width : '20px', margin: '0 0 0 10px'}}
+                />
               </S.Button>
             </Animation>
           </S.ButtonLink>
@@ -48,7 +51,7 @@ const Introduction = () => {
                 <S.Button>
                   Resume
                   <Icons.FileText
-                    style = {{width : '20px', margin: '0 0 0 7px'}}
+                    style = {{width : '20px', margin: '0 0 0 10px'}}
                   />
                 </S.Button>
               </Animation>
