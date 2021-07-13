@@ -55,6 +55,7 @@ export const ImageContainer = styled('div',{
     display        : 'flex',
     justifyContent : 'flex-end',
     alignItems     : 'center',
+    userSelect     : 'none', 
     img : {
       width : '80%',
     },

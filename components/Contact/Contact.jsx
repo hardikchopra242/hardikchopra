@@ -17,7 +17,11 @@ const Contact = () => {
       <S.Content>
         <S.Left>
           <S.SVGContainer className = {"hideMedium"} >
-            <img src = {img} width = {250}/>
+            <img
+              src = {img}
+              width = {250}
+              draggable="false"
+            />
           </S.SVGContainer>
           <S.EmailContainer>
             <S.Para>

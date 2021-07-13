@@ -9,16 +9,16 @@ const Introduction = () => {
   return(
     <S.Container id = "home">
       <S.Content>
-        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1200}>
+        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1700}>
           <S.TextSmall>Hey ! &nbsp;I 'am </S.TextSmall>
         </Animation>
-        <Animation animateIn="animate__bounceInRight" animateOnce={true} delay={1400}>
+        <Animation animateIn="animate__bounceInRight" animateOnce={true} delay={1900}>
           <T.TextLarge data-letters="Hardik Chopra" > Hardik Chopra </T.TextLarge>
         </Animation>
-        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1600}>
+        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={2100}>
           <S.TextSmall> A Programmer and a Web Developer </S.TextSmall>
         </Animation>
-        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={1800}>
+        <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={2300}>
           <S.IconContainer>
             <S.Icon href = "https://github.com/hardikchopra242" target = '_blank'>
               <Icons.GitHub />
@@ -33,7 +33,7 @@ const Introduction = () => {
         </Animation>
           <S.ButtonContainer>
           <S.ButtonLink href = "#about">
-            <Animation animateIn="animate__flipInX" animateOnce={true} delay={2000}>
+            <Animation animateIn="animate__flipInX" animateOnce={true} delay={2500}>
               <S.Button>
                 <span className='hideSmall'>More‎&nbsp;</span>
                 About me
@@ -48,7 +48,7 @@ const Introduction = () => {
               <Animation
                 animateIn="animate__flipInX"
                 animateOnce={true}
-                delay={2000}>
+                delay={2500}>
                 <S.Button>
                   Resume
                   <Icons.FileText

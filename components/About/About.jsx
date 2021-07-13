@@ -63,6 +63,7 @@ const About = () => {
           <img
             src={balloon}
             alt="Parallax Layer"
+            draggable="false"
           />
         </S.ImageContainer>
       </ParallaxMousemove.Layer>
