@@ -25,6 +25,7 @@ export const TextSmall = styled('p', {
   fontFamily : '$secondary',
   maxWidth   : '90vw',
   width      : 'fit-content',
+  zIndex : 99,
   '@media only screen and (max-width : 600px)' : {
     fontSize : '$3',
   }
@@ -76,5 +77,21 @@ export const Button = styled('button', {
       color      : '$black',
       border     : '2px solid $white',
     }
+  }
+})
+
+export const BackLogo = styled('div' , {
+  position : 'absolute',
+  zindex : -1,
+  top : '0.6em',
+  left : '1em',
+  fontSize : '15em',
+  fontFamily : '$code',
+  color : '$main',
+  letterSpacing : '2px',
+  opacity : '0.3',
+  userSelect : 'none',
+  '@media only screen and (max-width : 600px)' : {
+    display : 'none',
   }
 })
