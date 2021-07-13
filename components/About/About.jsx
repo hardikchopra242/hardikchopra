@@ -29,7 +29,7 @@ const About = () => {
          </Animation>
          <Animation animateIn="animate__fadeInUp" animateOnce={true} delay={200}>
           <S.Para>
-            I am an undegraduate
+            I am an undergraduate
             <span role='img' aria-label='alma-matter'> 👨‍🎓 </span>{' '}
             from
             <S.Link> National Institute of Technology, Jalandhar </S.Link>
