@@ -10,8 +10,6 @@ export const TextLarge = styled('h1', {
 
   '@media only screen and (min-width : 601px)' : {
 
-
-
     '&:hover' : {
       position  : 'relative',
       color : '$white',

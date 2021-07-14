@@ -11,13 +11,13 @@ export const Container = styled('div', {
 })
 
 export const Content = styled('div', {
-  position : 'absolute',
+  position       : 'absolute',
   display        : 'flex',
   justifyContent : 'center',
   flexDirection  : 'column',
   zIndex     : 999,
   '@media only screen and (max-width : 600px)' : {
-    margin       : '0 4em',
+    margin       : '0 0',
   }
 })
 
