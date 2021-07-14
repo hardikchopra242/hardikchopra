@@ -18,7 +18,7 @@ export const Content = styled('div',{
 })
 
 export const Header = styled('h1', {
-  fontSize : '$6',
+  fontSize : '$7',
 })
 
 export const Para = styled('p',{
@@ -27,6 +27,7 @@ export const Para = styled('p',{
   fontSize : '$3',
   textAlign : 'center',
   margin : '2em auto',
+  padding : '1em 3em'
 })
 
 export const Link = styled('a',{
