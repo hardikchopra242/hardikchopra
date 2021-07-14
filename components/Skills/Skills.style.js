@@ -61,7 +61,9 @@ export const Icon = styled('div' , {
   width : '3em',
   margin : '0.5em',
   transition : '0.3s',
-  '&:hover' : {
-    transform : 'scale(1.1)',
-  },
+  '@media only screen and (min-width : 600px)' : {
+      '&:hover' : {
+      transform : 'scale(1.1)',
+    },
+  }
 })

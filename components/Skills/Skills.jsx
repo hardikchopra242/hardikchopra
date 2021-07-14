@@ -26,18 +26,14 @@ const Skills = () => {
 
   const SkillMap = [
     {
-      title : 'Web Development',
-      skills : [react, next, node, express, sass, html, css]
-    },
-    {
-      title : 'Programming Languages',
+      title : 'Programming',
       skills : [javascript, cpp, c, python],
     },
 
     {
-      title : 'Tools I use',
-      skills : [mysql, postgres, linux, git, heroku ]
-    }
+      title : 'Development',
+      skills : [react, next, node, express, sass, html, css,mysql, postgres, linux, git, heroku]
+    },
   ]
 
   return(
@@ -52,7 +48,7 @@ const Skills = () => {
       <S.Content>
         <Animation animateIn="animate__fadeInUp" animateOnce={true}>
         <S.Para>
-          Let us have a look on my skillset 🚀
+          Have a look at my skillset 🚀
         </S.Para>
         </Animation>
         <S.CatContainer>
