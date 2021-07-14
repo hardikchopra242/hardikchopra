@@ -2,8 +2,9 @@
 import Head from 'next/head'
 
 const SEO = ({title}) => {
-  const description = "I am Hardik Chopra - a programmer and a developer from NIT Jalandhar."
-  const link = '#'
+  const description = "I am Hardik Chopra - a programmer and a web developer from NIT Jalandhar."
+  const link = 'https://hardik.vercel.app/'
+  const url = 'https://github.com/hardikchopra242/hardikchopra/blob/main/public/screenshot.png?raw=true'
   return(
     <>
     <Head>
@@ -12,6 +13,7 @@ const SEO = ({title}) => {
     <meta property="twitter:title" content={title} />
     <meta name="description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content={url} />
     <meta property="og:url" content={link} />
     <meta property="og:description" content={description} />
     <meta property="twitter:url" content={link} />
