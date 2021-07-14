@@ -9,7 +9,7 @@
 <p align="center">
 <img src="https://img.shields.io/github/followers/hardikchopra242?style=social" />
 <img src="https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fhardik.vercel.app%2F" />
-<img src="https://img.shields.io/github/commit-activity/y/hardikchopra242/hardikchopra">
+<img src="https://img.shields.io/github/commit-activity/y/hardikchopra242/hardikchopra242.github.io">
 </p>
 
 # 💻 Building locally
