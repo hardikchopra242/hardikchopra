@@ -21,7 +21,7 @@ cd hardikchopra
 npm install
 
 # Start development server
-npm start
+npm run dev
 ```
 
 # 🚀 Building for production
