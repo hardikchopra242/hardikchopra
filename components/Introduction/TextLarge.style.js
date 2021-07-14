@@ -20,6 +20,7 @@ export const TextLarge = styled('h1', {
     '&::after' : {
       content : "",
       position : 'absolute',
+      display : 'none',
       height : '8px',
       width : '100%',
       top : '50%',

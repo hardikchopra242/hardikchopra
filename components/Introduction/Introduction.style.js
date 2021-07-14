@@ -7,13 +7,15 @@ export const Container = styled('div', {
   flexDirection  : 'column',
   height         : '100vh',
   width          : '110vw',
-  zindex         : -1,
+  zIndex         : -1,
 })
 
 export const Content = styled('div', {
+  position : 'absolute',
   display        : 'flex',
   justifyContent : 'center',
   flexDirection  : 'column',
+  zIndex     : 999,
   '@media only screen and (max-width : 600px)' : {
     margin       : '0 4em',
   }
@@ -25,7 +27,6 @@ export const TextSmall = styled('p', {
   fontFamily : '$secondary',
   maxWidth   : '90vw',
   width      : 'fit-content',
-  zIndex     : 9999,
   '@media only screen and (max-width : 600px)' : {
     fontSize : '$3',
   }
@@ -81,12 +82,11 @@ export const Button = styled('button', {
 })
 
 export const BackLogo = styled('div' , {
-  position : 'absolute',
-  zindex : -1,
-  top : '0.6em',
-  left : '1em',
+  zIndex : 99,
+  transform : 'translate(-1em ,-0.2em)',
   fontSize : '15em',
   fontFamily : '$code',
+  opacity : '0.3',
   color : '$main',
   letterSpacing : '2px',
   userSelect : 'none',
