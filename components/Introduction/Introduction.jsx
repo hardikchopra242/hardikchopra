@@ -59,10 +59,10 @@ const Introduction = () => {
               </Animation>
             </S.ButtonLink>
           </S.ButtonContainer>
-          <S.BackLogo>
-            {`</>`}
-          </S.BackLogo>
       </S.Content>
+      {/*<S.BackLogo>
+      {`</>`}
+      </S.BackLogo>*/}
     </S.Container>
   )
 }
