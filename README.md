@@ -6,17 +6,16 @@
 <h3 align="center">Personal Portfolio powered by Next.js</h3>
 <p align="center">
 <img src="https://img.shields.io/github/followers/hardikchopra242?style=social" />
-<img src="https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fhardikchopra.vercel.app%2F" />
-<img src="https://img.shields.io/github/commit-activity/y/hardikchopra242/hardikchopra242.github.io">
-<img src="https://img.shields.io/github/languages/count/hardikchopra242/hardikchopra242.github.io">
+<img src="https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fhardik.vercel.app%2F" />
+<img src="https://img.shields.io/github/commit-activity/y/hardikchopra242/hardikchopra">
 </p>
 
 # 💻 Building locally
 
 ```shell
 # Clone the repo
-git clone https://github.com/hardikchopra242/hardikchopra242.github.io.git
-cd hardikchopra242.github.io
+git clone https://github.com/hardikchopra242/hardikchopra.git
+cd hardikchopra
 
 # Install dependencies
 npm install
@@ -29,8 +28,8 @@ npm start
 
 ```shell
 # Clone the repo
-git clone https://github.com/hardikchopra242/hardikchopra242.github.io.git
-cd hardikchopra242.github.io
+git clone https://github.com/hardikchopra242/hardikchopra.git
+cd hardikchopra
 
 # Install dependencies
 npm install
@@ -123,6 +122,31 @@ Let's have a look at the file structure
 
 ```
 # :key: Contribute
-* If you want to suggest some other feature, please open an [**issue**](https://github.com/hardikchopra242/RGBeX/issues) here.
+* If you want to suggest some other feature, please open an [issue](https://github.com/hardikchopra242/hardikchopra/issues) here.
 * If you noticed some typos or a need to fix syntax, don't hesitate to make a **pull request**.
-* You can find existing issues [here](https://github.com/hardikchopra242/RGBeX/issues), if you can fix them, go for it!
+  
+  ```zsh
+  # Clone repo
+  git clone https://github.com/hardikchopra242/hardikchopra.git
+  
+  # cd into the repo
+  cd hardikchopra
+  
+  # Make a new branch
+  git branch feature
+  
+  # Make Changes
+  
+  # Add changes to staging area
+  git add .
+  
+  # Commit your changes
+  git commit -m"Commit Message"
+  
+  # Push your changes
+  git push
+  
+  # Make a pull request
+  ```
+
+* You can find existing issues [here](https://github.com/hardikchopra242/hardikchopra/issues), if you can fix them, then go for it!
