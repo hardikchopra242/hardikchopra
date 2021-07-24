@@ -44,7 +44,8 @@ const Introduction = () => {
               </S.Button>
             </Animation>
           </S.ButtonLink>
-            <S.ButtonLink href="https://drive.google.com/file/d/1SAiHt7MWUWWoNHVPrcjV2o-U_Idp1v8r/view?usp=sharing" target =' _blank'>
+          {/*
+            <S.ButtonLink href="#" target =' _blank'>
               <Animation
                 animateIn="animate__flipInX"
                 animateOnce={true}
@@ -57,7 +58,8 @@ const Introduction = () => {
                   />
                 </S.Button>
               </Animation>
-            </S.ButtonLink>
+          </S.ButtonLink> 
+          */}
           </S.ButtonContainer>
       </S.Content>
       <S.BackLogo>
