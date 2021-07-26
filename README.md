@@ -1,7 +1,7 @@
 ![image](https://github.com/hardikchopra242/hardikchopra/blob/main/public/screenshot.png?raw=true)
 
 <p align="center">
-  <a href="http://hardikchopra.vercel.app/" target="_blank">
+  <a href="http://hardik.vercel.app/" target="_blank">
     <h1 align="center">Hardik Chopra</h1>
   </a>
 </p>
