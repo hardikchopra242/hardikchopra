@@ -18,6 +18,7 @@ export const Content = styled('div', {
   zIndex     : 999,
   '@media only screen and (max-width : 600px)' : {
     margin       : '0 0',
+    alignItems   : 'center',
   }
 })
 
@@ -29,6 +30,7 @@ export const TextSmall = styled('p', {
   width      : 'fit-content',
   '@media only screen and (max-width : 600px)' : {
     fontSize : '$3',
+    textAlign: 'center',
   }
 })
 
