@@ -20,7 +20,7 @@ const Footer = () => {
 
       <S.Content>
         <S.Text>
-          © 2021 &nbsp; Hardik Chopra
+          © 2022 &nbsp; Hardik Chopra
           </S.Text>
           <S.IconContainer>
           <S.Link  href="https://github.com/hardikchopra242" target="_blank">
