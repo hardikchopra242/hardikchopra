@@ -23,7 +23,7 @@ const Introduction = () => {
             <S.Icon href = "https://github.com/hardikchopra242" target = '_blank'>
               <Icons.GitHub />
             </S.Icon>
-            <S.Icon href = "www.linkedin.com/in/hardikchopra242" target = '_blank'>
+            <S.Icon href = "https://linkedin.com/in/hardikchopra242" target = '_blank'>
               <Icons.Linkedin />
             </S.Icon>
             <S.Icon href="mailto:hardikchopra242@gmail.com" target = '_blank'>
