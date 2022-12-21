@@ -26,7 +26,7 @@ const Footer = () => {
           <S.Link  href="https://github.com/hardikchopra242" target="_blank">
           <Icons.GitHub style={{width:'1.5em'}} />
           </S.Link>
-          <S.Link  href="https://www.linkedin.com/in/hardik-chopra-62b6771a8/" target="_blank">
+          <S.Link  href="www.linkedin.com/in/hardikchopra242" target="_blank">
           <Icons.Linkedin style={{width:'1.5em'}} />
           </S.Link>
           <S.Link  href="mailto:hardikchopra242@gmail.com" target="_blank">
